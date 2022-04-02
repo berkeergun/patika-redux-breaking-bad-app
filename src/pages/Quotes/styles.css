@@ -1,0 +1,29 @@
+.quote_item{
+    padding: 10px 0;
+    text-align: center;
+
+}
+
+.quotes_info{
+    padding: 30px;
+    text-align: center;
+    font-style: italic;
+}
+
+.quote_item a{
+    color: #9809f8;
+    text-decoration: none;
+    font-style: italic;
+}
+.quote_item a:hover{
+    /* color: #6505a5; */
+    color: white;
+    text-decoration: underline;
+    text-shadow: -1px 0 #6505a5, 0 1px #6505a5, 1px 0 #6505a5, 0 -1px #6505a5;
+    /* text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black; */
+    /* text-shadow: -1px 0 white, 0 1px white, 1px 0 white, 0 -1px white; */
+}
+
+.quote_item strong{
+    color: #000000
+}

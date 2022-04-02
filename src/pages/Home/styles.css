@@ -1,0 +1,66 @@
+.my-masonry-grid {
+  display: flex;
+  margin-left: -10px;
+  margin-right: 10px;
+}
+.my-masonry-grid_column {
+  border-left: 20px solid transparent;
+  background-clip: padding-box;
+}
+
+/* Style your items */
+.my-masonry-grid_column > div {
+  /* change div to reference your elements in <masonry> */
+  margin-bottom: 20px;
+
+}
+
+.my-masonry-grid_column > div > a {
+  padding: 20px;
+  display: block;
+  color: #222;
+  text-decoration: none;
+  /* background: linear-gradient(to right, #a8ff78, #78ffd6); */
+  background: linear-gradient(to left, #f7971e40, #ffd20040);
+  border-radius: 20px;
+  /* border: 1px dotted white; */
+
+}
+
+.my-masonry-grid_column > div > a:hover {
+  /* color: #000; */
+  color: #f7f5f3;
+  background: linear-gradient(to right, #f7971e, #ffd200);
+  box-shadow: 5px 10px 1px 1px rgba(0, 0, 0, 0.4);
+  /* background: linear-gradient(to right, #89fa4c, #22f7b7); */
+  font-weight: 500;
+  /* border: none; */
+}
+
+
+.character {
+  width: 100%;
+}
+
+.char_name {
+  padding: 10px 0;
+  font-size: 16px;
+}
+
+
+.pagebutton{
+  transition: 0.2s ease;
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  background: linear-gradient(to right, #a8ff78, #78ffd6);
+  color: black;
+  font-weight: 900;
+  font-family: 'Courier New', Courier, monospace;
+  box-shadow: 5px 10px 1px 1px rgba(0, 0, 0, 0.4);
+}
+
+.pagebutton:hover{
+  background: linear-gradient(to right, #89fa4c, #22f7b7);
+  box-shadow: 5px 10px 1px 1px rgba(0, 0, 0, 0.6);
+}

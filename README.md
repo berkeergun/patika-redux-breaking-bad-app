@@ -1,3 +1,5 @@
+# Redux Breaking Bad App [Live Server](https://redux-breaking-bad-app-berke.surge.sh/)
+![breaking-bad-app](./src/breaking-bad.jpg)
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
